@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-red-100 bg-white/95 p-5 shadow-lg shadow-red-100/40 dark:border-slate-700 dark:bg-slate-900/95 dark:shadow-black/30;
+}
+
+.btn-primary {
+  @apply rounded-xl bg-primary px-4 py-2 text-white transition hover:bg-red-700;
+}
